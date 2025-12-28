@@ -2,7 +2,7 @@ package array;
 
 import java.util.Arrays;
 
-public class FrequencyCount {
+public class RemoveDuplicate {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -18,7 +18,7 @@ public class FrequencyCount {
 				}
 			}
 			if(arr[i]!=-1)
-			System.out.println(arr[i]+" count: "+count);
+			System.out.println(arr[i]);
 		}
 	}
 }
